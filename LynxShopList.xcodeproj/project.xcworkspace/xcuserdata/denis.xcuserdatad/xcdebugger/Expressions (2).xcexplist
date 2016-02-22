@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[LDShopListEditViewController viewWillAppear:]:LDShopListEditViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.toolbar.backgroundColor">
+            </PersistentString>
+            <PersistentString
+               value = "self.viewFooter.layer.backgroundColor">
+            </PersistentString>
+            <PersistentString
+               value = "self.slidingViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LDShopListEditDetailsViewController viewWillAppear:]:LDShopListEditDetailsViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "tabBarController">
+            </PersistentString>
+            <PersistentString
+               value = "self.slidingViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[LDShopListGoodEditViewController textField:shouldChangeCharactersInRange:replacementString:]:LDShopListGoodEditViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "textField.text">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

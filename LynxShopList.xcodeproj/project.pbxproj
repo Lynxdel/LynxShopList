@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		921D64EF1991682100CC8EA1 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D64EE1991682100CC8EA1 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		921D64F319916BFA00CC8EA1 /* LDShopListXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 921D64F219916BFA00CC8EA1 /* LDShopListXML.m */; };
+		923A9480183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A947F183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.m */; };
+		923A9483183D27E000FAA3CE /* LDGoodCategoryEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A9482183D27E000FAA3CE /* LDGoodCategoryEditViewController.m */; };
+		923A9487183D45C200FAA3CE /* LDGoodsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A9486183D45C200FAA3CE /* LDGoodsTableViewController.m */; };
+		923A948B183D45DB00FAA3CE /* LDGoodEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 923A948A183D45DB00FAA3CE /* LDGoodEditViewController.m */; };
+		923DC6681837D516006DF295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC6671837D516006DF295 /* Foundation.framework */; };
+		923DC66A1837D516006DF295 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC6691837D516006DF295 /* CoreGraphics.framework */; };
+		923DC66C1837D516006DF295 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC66B1837D516006DF295 /* UIKit.framework */; };
+		923DC6721837D516006DF295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 923DC6701837D516006DF295 /* InfoPlist.strings */; };
+		923DC6741837D516006DF295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 923DC6731837D516006DF295 /* main.m */; };
+		923DC6781837D516006DF295 /* LDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 923DC6771837D516006DF295 /* LDAppDelegate.m */; };
+		923DC67B1837D516006DF295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 923DC6791837D516006DF295 /* Main.storyboard */; };
+		923DC6831837D516006DF295 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 923DC6821837D516006DF295 /* Images.xcassets */; };
+		923DC68A1837D516006DF295 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC6891837D516006DF295 /* XCTest.framework */; };
+		923DC68B1837D516006DF295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC6671837D516006DF295 /* Foundation.framework */; };
+		923DC68C1837D516006DF295 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923DC66B1837D516006DF295 /* UIKit.framework */; };
+		923DC6A51837D565006DF295 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 923DC6A01837D565006DF295 /* FMDatabase.m */; };
+		923DC6A61837D565006DF295 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 923DC6A21837D565006DF295 /* FMDatabasePool.m */; };
+		923DC6A71837D565006DF295 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 923DC6A41837D565006DF295 /* FMResultSet.m */; };
+		9250BF8E19B4F6AA00C10B47 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250BF8A19B4F6AA00C10B47 /* FMDatabaseAdditions.m */; };
+		9250BF8F19B4F6AA00C10B47 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 9250BF8C19B4F6AA00C10B47 /* FMDatabaseQueue.m */; };
+		92796B671837D5F20092256F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 92796B661837D5F20092256F /* libsqlite3.dylib */; };
+		92796B6A1837D8D70092256F /* LDSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92796B691837D8D70092256F /* LDSettingsViewController.m */; };
+		92796B701837F88E0092256F /* LDShopsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92796B6F1837F88E0092256F /* LDShopsTableViewController.m */; };
+		92852AE918EEAD6E00556EB5 /* LDAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92852AE818EEAD6E00556EB5 /* LDAboutViewController.m */; };
+		928922EF18A6BCA900A1497C /* LDMeasureEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 928922EE18A6BCA900A1497C /* LDMeasureEditViewController.m */; };
+		9293D29E186F0A8C00A8F8CC /* LDShopListGoodEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9293D29D186F0A8C00A8F8CC /* LDShopListGoodEditViewController.m */; };
+		92AFA2C318BBD75E00A265CC /* LynxShopDB_preset.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 92AFA2C218BBD75E00A265CC /* LynxShopDB_preset.sqlite */; };
+		92B478C218420D4F00E7B921 /* LDShopListsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B478C118420D4F00E7B921 /* LDShopListsTableViewController.m */; };
+		92B478C518420D7500E7B921 /* LDShopListEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B478C418420D7500E7B921 /* LDShopListEditViewController.m */; };
+		92B478CC18423C3D00E7B921 /* LDMeasuresTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92B478CB18423C3D00E7B921 /* LDMeasuresTableViewController.m */; };
+		92C250151838C1AD0011BE60 /* LDShopEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C250141838C1AD0011BE60 /* LDShopEditViewController.m */; };
+		92C25019183910F70011BE60 /* LDLocalDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C25018183910F70011BE60 /* LDLocalDB.m */; };
+		92CAFC481941A04A00B6147A /* LDShopListEditDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CAFC471941A04A00B6147A /* LDShopListEditDetailsViewController.m */; };
+		92CAFC4D1941A47B00B6147A /* ECSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CAFC4C1941A47B00B6147A /* ECSlidingViewController.m */; };
+		92CAFC501941A88200B6147A /* LDInitialSlidingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CAFC4F1941A88200B6147A /* LDInitialSlidingViewController.m */; };
+		92FEC18A18FDB36400BFD9B5 /* LDCellMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FEC18918FDB36400BFD9B5 /* LDCellMenuItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		923DC68D1837D516006DF295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 923DC65C1837D516006DF295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 923DC6631837D516006DF295;
+			remoteInfo = LynxShopList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		921D64ED1991682100CC8EA1 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		921D64EE1991682100CC8EA1 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		921D64F119916BFA00CC8EA1 /* LDShopListXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopListXML.h; sourceTree = "<group>"; };
+		921D64F219916BFA00CC8EA1 /* LDShopListXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopListXML.m; sourceTree = "<group>"; };
+		923A947E183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDGoodCategoriesTableViewController.h; sourceTree = "<group>"; };
+		923A947F183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDGoodCategoriesTableViewController.m; sourceTree = "<group>"; };
+		923A9481183D27E000FAA3CE /* LDGoodCategoryEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDGoodCategoryEditViewController.h; sourceTree = "<group>"; };
+		923A9482183D27E000FAA3CE /* LDGoodCategoryEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDGoodCategoryEditViewController.m; sourceTree = "<group>"; };
+		923A9485183D45C200FAA3CE /* LDGoodsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDGoodsTableViewController.h; sourceTree = "<group>"; };
+		923A9486183D45C200FAA3CE /* LDGoodsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDGoodsTableViewController.m; sourceTree = "<group>"; };
+		923A9489183D45DB00FAA3CE /* LDGoodEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDGoodEditViewController.h; sourceTree = "<group>"; };
+		923A948A183D45DB00FAA3CE /* LDGoodEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDGoodEditViewController.m; sourceTree = "<group>"; };
+		923A98BE1840DD730064E26D /* LDRefSelectValueDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDRefSelectValueDelegate.h; sourceTree = "<group>"; };
+		923DC6641837D516006DF295 /* LynxShopList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LynxShopList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		923DC6671837D516006DF295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		923DC6691837D516006DF295 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		923DC66B1837D516006DF295 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		923DC66F1837D516006DF295 /* LynxShopList-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LynxShopList-Info.plist"; sourceTree = "<group>"; };
+		923DC6711837D516006DF295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		923DC6731837D516006DF295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		923DC6751837D516006DF295 /* LynxShopList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LynxShopList-Prefix.pch"; sourceTree = "<group>"; };
+		923DC6761837D516006DF295 /* LDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDAppDelegate.h; sourceTree = "<group>"; };
+		923DC6771837D516006DF295 /* LDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDAppDelegate.m; sourceTree = "<group>"; };
+		923DC67A1837D516006DF295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		923DC6821837D516006DF295 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		923DC6881837D516006DF295 /* LynxShopListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LynxShopListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		923DC6891837D516006DF295 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		923DC69F1837D565006DF295 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = FMDB/FMDatabase.h; sourceTree = "<group>"; };
+		923DC6A01837D565006DF295 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = FMDB/FMDatabase.m; sourceTree = "<group>"; };
+		923DC6A11837D565006DF295 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = FMDB/FMDatabasePool.h; sourceTree = "<group>"; };
+		923DC6A21837D565006DF295 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = FMDB/FMDatabasePool.m; sourceTree = "<group>"; };
+		923DC6A31837D565006DF295 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = FMDB/FMResultSet.h; sourceTree = "<group>"; };
+		923DC6A41837D565006DF295 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = FMDB/FMResultSet.m; sourceTree = "<group>"; };
+		9250BF8919B4F6AA00C10B47 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = FMDB/FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		9250BF8A19B4F6AA00C10B47 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = FMDB/FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		9250BF8B19B4F6AA00C10B47 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = FMDB/FMDatabaseQueue.h; sourceTree = "<group>"; };
+		9250BF8C19B4F6AA00C10B47 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = FMDB/FMDatabaseQueue.m; sourceTree = "<group>"; };
+		9250BF8D19B4F6AA00C10B47 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = FMDB/FMDB.h; sourceTree = "<group>"; };
+		92796B661837D5F20092256F /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		92796B681837D8D70092256F /* LDSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDSettingsViewController.h; sourceTree = "<group>"; };
+		92796B691837D8D70092256F /* LDSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDSettingsViewController.m; sourceTree = "<group>"; };
+		92796B6E1837F88E0092256F /* LDShopsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopsTableViewController.h; sourceTree = "<group>"; };
+		92796B6F1837F88E0092256F /* LDShopsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopsTableViewController.m; sourceTree = "<group>"; };
+		92852AE718EEAD6E00556EB5 /* LDAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDAboutViewController.h; sourceTree = "<group>"; };
+		92852AE818EEAD6E00556EB5 /* LDAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDAboutViewController.m; sourceTree = "<group>"; };
+		928922ED18A6BCA900A1497C /* LDMeasureEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMeasureEditViewController.h; sourceTree = "<group>"; };
+		928922EE18A6BCA900A1497C /* LDMeasureEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMeasureEditViewController.m; sourceTree = "<group>"; };
+		9293D29C186F0A8C00A8F8CC /* LDShopListGoodEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopListGoodEditViewController.h; sourceTree = "<group>"; };
+		9293D29D186F0A8C00A8F8CC /* LDShopListGoodEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopListGoodEditViewController.m; sourceTree = "<group>"; };
+		92AFA2C218BBD75E00A265CC /* LynxShopDB_preset.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = LynxShopDB_preset.sqlite; sourceTree = "<group>"; };
+		92B478C018420D4F00E7B921 /* LDShopListsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopListsTableViewController.h; sourceTree = "<group>"; };
+		92B478C118420D4F00E7B921 /* LDShopListsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopListsTableViewController.m; sourceTree = "<group>"; };
+		92B478C318420D7500E7B921 /* LDShopListEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopListEditViewController.h; sourceTree = "<group>"; };
+		92B478C418420D7500E7B921 /* LDShopListEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopListEditViewController.m; sourceTree = "<group>"; };
+		92B478CA18423C3D00E7B921 /* LDMeasuresTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDMeasuresTableViewController.h; sourceTree = "<group>"; };
+		92B478CB18423C3D00E7B921 /* LDMeasuresTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDMeasuresTableViewController.m; sourceTree = "<group>"; };
+		92BC089C190D546D00A925D0 /* LDRefCreateValueDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDRefCreateValueDelegate.h; sourceTree = "<group>"; };
+		92C250131838C1AD0011BE60 /* LDShopEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopEditViewController.h; sourceTree = "<group>"; };
+		92C250141838C1AD0011BE60 /* LDShopEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopEditViewController.m; sourceTree = "<group>"; };
+		92C25017183910F70011BE60 /* LDLocalDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDLocalDB.h; sourceTree = "<group>"; };
+		92C25018183910F70011BE60 /* LDLocalDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDLocalDB.m; sourceTree = "<group>"; };
+		92CAFC461941A04A00B6147A /* LDShopListEditDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDShopListEditDetailsViewController.h; sourceTree = "<group>"; };
+		92CAFC471941A04A00B6147A /* LDShopListEditDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDShopListEditDetailsViewController.m; sourceTree = "<group>"; };
+		92CAFC4B1941A47B00B6147A /* ECSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ECSlidingViewController.h; path = ECSlidingViewController/ECSlidingViewController.h; sourceTree = "<group>"; };
+		92CAFC4C1941A47B00B6147A /* ECSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ECSlidingViewController.m; path = ECSlidingViewController/ECSlidingViewController.m; sourceTree = "<group>"; };
+		92CAFC4E1941A88200B6147A /* LDInitialSlidingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDInitialSlidingViewController.h; sourceTree = "<group>"; };
+		92CAFC4F1941A88200B6147A /* LDInitialSlidingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDInitialSlidingViewController.m; sourceTree = "<group>"; };
+		92FEC18818FDB36400BFD9B5 /* LDCellMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDCellMenuItem.h; sourceTree = "<group>"; };
+		92FEC18918FDB36400BFD9B5 /* LDCellMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDCellMenuItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		923DC6611837D516006DF295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92796B671837D5F20092256F /* libsqlite3.dylib in Frameworks */,
+				923DC66A1837D516006DF295 /* CoreGraphics.framework in Frameworks */,
+				923DC66C1837D516006DF295 /* UIKit.framework in Frameworks */,
+				923DC6681837D516006DF295 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923DC6851837D516006DF295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923DC68A1837D516006DF295 /* XCTest.framework in Frameworks */,
+				923DC68C1837D516006DF295 /* UIKit.framework in Frameworks */,
+				923DC68B1837D516006DF295 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921D64EC1991682100CC8EA1 /* GDataXML */ = {
+			isa = PBXGroup;
+			children = (
+				921D64ED1991682100CC8EA1 /* GDataXMLNode.h */,
+				921D64EE1991682100CC8EA1 /* GDataXMLNode.m */,
+			);
+			path = GDataXML;
+			sourceTree = "<group>";
+		};
+		921D64F019916B4E00CC8EA1 /* DataExchange */ = {
+			isa = PBXGroup;
+			children = (
+				921D64F119916BFA00CC8EA1 /* LDShopListXML.h */,
+				921D64F219916BFA00CC8EA1 /* LDShopListXML.m */,
+			);
+			name = DataExchange;
+			sourceTree = "<group>";
+		};
+		923A947C183D275100FAA3CE /* Shops */ = {
+			isa = PBXGroup;
+			children = (
+				92796B6E1837F88E0092256F /* LDShopsTableViewController.h */,
+				92796B6F1837F88E0092256F /* LDShopsTableViewController.m */,
+				92C250131838C1AD0011BE60 /* LDShopEditViewController.h */,
+				92C250141838C1AD0011BE60 /* LDShopEditViewController.m */,
+			);
+			name = Shops;
+			sourceTree = "<group>";
+		};
+		923A947D183D277E00FAA3CE /* GoodCategories */ = {
+			isa = PBXGroup;
+			children = (
+				923A947E183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.h */,
+				923A947F183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.m */,
+				923A9481183D27E000FAA3CE /* LDGoodCategoryEditViewController.h */,
+				923A9482183D27E000FAA3CE /* LDGoodCategoryEditViewController.m */,
+			);
+			name = GoodCategories;
+			sourceTree = "<group>";
+		};
+		923A9484183D456600FAA3CE /* Goods */ = {
+			isa = PBXGroup;
+			children = (
+				923A9485183D45C200FAA3CE /* LDGoodsTableViewController.h */,
+				923A9486183D45C200FAA3CE /* LDGoodsTableViewController.m */,
+				923A9489183D45DB00FAA3CE /* LDGoodEditViewController.h */,
+				923A948A183D45DB00FAA3CE /* LDGoodEditViewController.m */,
+			);
+			name = Goods;
+			sourceTree = "<group>";
+		};
+		923DC65B1837D516006DF295 = {
+			isa = PBXGroup;
+			children = (
+				923DC66D1837D516006DF295 /* LynxShopList */,
+				923DC6661837D516006DF295 /* Frameworks */,
+				923DC6651837D516006DF295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		923DC6651837D516006DF295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				923DC6641837D516006DF295 /* LynxShopList.app */,
+				923DC6881837D516006DF295 /* LynxShopListTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		923DC6661837D516006DF295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92796B661837D5F20092256F /* libsqlite3.dylib */,
+				923DC6671837D516006DF295 /* Foundation.framework */,
+				923DC6691837D516006DF295 /* CoreGraphics.framework */,
+				923DC66B1837D516006DF295 /* UIKit.framework */,
+				923DC6891837D516006DF295 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		923DC66D1837D516006DF295 /* LynxShopList */ = {
+			isa = PBXGroup;
+			children = (
+				921D64EC1991682100CC8EA1 /* GDataXML */,
+				92CAFC491941A45800B6147A /* ECSlidingViewController */,
+				923DC6A81837D569006DF295 /* FMDB */,
+				92C25016183910D00011BE60 /* DB */,
+				921D64F019916B4E00CC8EA1 /* DataExchange */,
+				92AFA2C118BBD75E00A265CC /* ResourceFiles */,
+				923DC6761837D516006DF295 /* LDAppDelegate.h */,
+				923DC6771837D516006DF295 /* LDAppDelegate.m */,
+				923A98BE1840DD730064E26D /* LDRefSelectValueDelegate.h */,
+				92BC089C190D546D00A925D0 /* LDRefCreateValueDelegate.h */,
+				92796B681837D8D70092256F /* LDSettingsViewController.h */,
+				92796B691837D8D70092256F /* LDSettingsViewController.m */,
+				92852AE718EEAD6E00556EB5 /* LDAboutViewController.h */,
+				92852AE818EEAD6E00556EB5 /* LDAboutViewController.m */,
+				923DC6791837D516006DF295 /* Main.storyboard */,
+				92B478BF18420CF200E7B921 /* ShopLists */,
+				923A947C183D275100FAA3CE /* Shops */,
+				923A947D183D277E00FAA3CE /* GoodCategories */,
+				923A9484183D456600FAA3CE /* Goods */,
+				92B478C918423C0C00E7B921 /* Measures */,
+				923DC6821837D516006DF295 /* Images.xcassets */,
+				923DC66E1837D516006DF295 /* Supporting Files */,
+				92FEC18818FDB36400BFD9B5 /* LDCellMenuItem.h */,
+				92FEC18918FDB36400BFD9B5 /* LDCellMenuItem.m */,
+				92CAFC4E1941A88200B6147A /* LDInitialSlidingViewController.h */,
+				92CAFC4F1941A88200B6147A /* LDInitialSlidingViewController.m */,
+			);
+			path = LynxShopList;
+			sourceTree = "<group>";
+		};
+		923DC66E1837D516006DF295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				923DC66F1837D516006DF295 /* LynxShopList-Info.plist */,
+				923DC6701837D516006DF295 /* InfoPlist.strings */,
+				923DC6731837D516006DF295 /* main.m */,
+				923DC6751837D516006DF295 /* LynxShopList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		923DC6A81837D569006DF295 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				9250BF8919B4F6AA00C10B47 /* FMDatabaseAdditions.h */,
+				9250BF8A19B4F6AA00C10B47 /* FMDatabaseAdditions.m */,
+				9250BF8B19B4F6AA00C10B47 /* FMDatabaseQueue.h */,
+				9250BF8C19B4F6AA00C10B47 /* FMDatabaseQueue.m */,
+				9250BF8D19B4F6AA00C10B47 /* FMDB.h */,
+				923DC69F1837D565006DF295 /* FMDatabase.h */,
+				923DC6A01837D565006DF295 /* FMDatabase.m */,
+				923DC6A11837D565006DF295 /* FMDatabasePool.h */,
+				923DC6A21837D565006DF295 /* FMDatabasePool.m */,
+				923DC6A31837D565006DF295 /* FMResultSet.h */,
+				923DC6A41837D565006DF295 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		92AFA2C118BBD75E00A265CC /* ResourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				92AFA2C218BBD75E00A265CC /* LynxShopDB_preset.sqlite */,
+			);
+			path = ResourceFiles;
+			sourceTree = "<group>";
+		};
+		92B478BF18420CF200E7B921 /* ShopLists */ = {
+			isa = PBXGroup;
+			children = (
+				92B478C018420D4F00E7B921 /* LDShopListsTableViewController.h */,
+				92B478C118420D4F00E7B921 /* LDShopListsTableViewController.m */,
+				92B478C318420D7500E7B921 /* LDShopListEditViewController.h */,
+				92B478C418420D7500E7B921 /* LDShopListEditViewController.m */,
+				9293D29C186F0A8C00A8F8CC /* LDShopListGoodEditViewController.h */,
+				9293D29D186F0A8C00A8F8CC /* LDShopListGoodEditViewController.m */,
+				92CAFC461941A04A00B6147A /* LDShopListEditDetailsViewController.h */,
+				92CAFC471941A04A00B6147A /* LDShopListEditDetailsViewController.m */,
+			);
+			name = ShopLists;
+			sourceTree = "<group>";
+		};
+		92B478C918423C0C00E7B921 /* Measures */ = {
+			isa = PBXGroup;
+			children = (
+				92B478CA18423C3D00E7B921 /* LDMeasuresTableViewController.h */,
+				92B478CB18423C3D00E7B921 /* LDMeasuresTableViewController.m */,
+				928922ED18A6BCA900A1497C /* LDMeasureEditViewController.h */,
+				928922EE18A6BCA900A1497C /* LDMeasureEditViewController.m */,
+			);
+			name = Measures;
+			sourceTree = "<group>";
+		};
+		92C25016183910D00011BE60 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				92C25017183910F70011BE60 /* LDLocalDB.h */,
+				92C25018183910F70011BE60 /* LDLocalDB.m */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
+		92CAFC491941A45800B6147A /* ECSlidingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				92CAFC4B1941A47B00B6147A /* ECSlidingViewController.h */,
+				92CAFC4C1941A47B00B6147A /* ECSlidingViewController.m */,
+			);
+			name = ECSlidingViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		923DC6631837D516006DF295 /* LynxShopList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923DC6991837D516006DF295 /* Build configuration list for PBXNativeTarget "LynxShopList" */;
+			buildPhases = (
+				923DC6601837D516006DF295 /* Sources */,
+				923DC6611837D516006DF295 /* Frameworks */,
+				923DC6621837D516006DF295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LynxShopList;
+			productName = LynxShopList;
+			productReference = 923DC6641837D516006DF295 /* LynxShopList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		923DC6871837D516006DF295 /* LynxShopListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 923DC69C1837D516006DF295 /* Build configuration list for PBXNativeTarget "LynxShopListTests" */;
+			buildPhases = (
+				923DC6841837D516006DF295 /* Sources */,
+				923DC6851837D516006DF295 /* Frameworks */,
+				923DC6861837D516006DF295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				923DC68E1837D516006DF295 /* PBXTargetDependency */,
+			);
+			name = LynxShopListTests;
+			productName = LynxShopListTests;
+			productReference = 923DC6881837D516006DF295 /* LynxShopListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		923DC65C1837D516006DF295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Денис Ломанов";
+				TargetAttributes = {
+					923DC6631837D516006DF295 = {
+						DevelopmentTeam = M6FB5XJ8QY;
+					};
+					923DC6871837D516006DF295 = {
+						TestTargetID = 923DC6631837D516006DF295;
+					};
+				};
+			};
+			buildConfigurationList = 923DC65F1837D516006DF295 /* Build configuration list for PBXProject "LynxShopList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 923DC65B1837D516006DF295;
+			productRefGroup = 923DC6651837D516006DF295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				923DC6631837D516006DF295 /* LynxShopList */,
+				923DC6871837D516006DF295 /* LynxShopListTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		923DC6621837D516006DF295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				923DC6831837D516006DF295 /* Images.xcassets in Resources */,
+				92AFA2C318BBD75E00A265CC /* LynxShopDB_preset.sqlite in Resources */,
+				923DC6721837D516006DF295 /* InfoPlist.strings in Resources */,
+				923DC67B1837D516006DF295 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923DC6861837D516006DF295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		923DC6601837D516006DF295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B478C218420D4F00E7B921 /* LDShopListsTableViewController.m in Sources */,
+				923A9483183D27E000FAA3CE /* LDGoodCategoryEditViewController.m in Sources */,
+				923A948B183D45DB00FAA3CE /* LDGoodEditViewController.m in Sources */,
+				923DC6781837D516006DF295 /* LDAppDelegate.m in Sources */,
+				92C25019183910F70011BE60 /* LDLocalDB.m in Sources */,
+				92796B6A1837D8D70092256F /* LDSettingsViewController.m in Sources */,
+				92B478CC18423C3D00E7B921 /* LDMeasuresTableViewController.m in Sources */,
+				923DC6A61837D565006DF295 /* FMDatabasePool.m in Sources */,
+				92796B701837F88E0092256F /* LDShopsTableViewController.m in Sources */,
+				928922EF18A6BCA900A1497C /* LDMeasureEditViewController.m in Sources */,
+				92B478C518420D7500E7B921 /* LDShopListEditViewController.m in Sources */,
+				92C250151838C1AD0011BE60 /* LDShopEditViewController.m in Sources */,
+				9293D29E186F0A8C00A8F8CC /* LDShopListGoodEditViewController.m in Sources */,
+				923A9480183D27BA00FAA3CE /* LDGoodCategoriesTableViewController.m in Sources */,
+				923DC6A71837D565006DF295 /* FMResultSet.m in Sources */,
+				923DC6A51837D565006DF295 /* FMDatabase.m in Sources */,
+				92FEC18A18FDB36400BFD9B5 /* LDCellMenuItem.m in Sources */,
+				921D64EF1991682100CC8EA1 /* GDataXMLNode.m in Sources */,
+				921D64F319916BFA00CC8EA1 /* LDShopListXML.m in Sources */,
+				923A9487183D45C200FAA3CE /* LDGoodsTableViewController.m in Sources */,
+				92CAFC4D1941A47B00B6147A /* ECSlidingViewController.m in Sources */,
+				9250BF8E19B4F6AA00C10B47 /* FMDatabaseAdditions.m in Sources */,
+				92CAFC501941A88200B6147A /* LDInitialSlidingViewController.m in Sources */,
+				92852AE918EEAD6E00556EB5 /* LDAboutViewController.m in Sources */,
+				923DC6741837D516006DF295 /* main.m in Sources */,
+				92CAFC481941A04A00B6147A /* LDShopListEditDetailsViewController.m in Sources */,
+				9250BF8F19B4F6AA00C10B47 /* FMDatabaseQueue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		923DC6841837D516006DF295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		923DC68E1837D516006DF295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 923DC6631837D516006DF295 /* LynxShopList */;
+			targetProxy = 923DC68D1837D516006DF295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		923DC6701837D516006DF295 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923DC6711837D516006DF295 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		923DC6791837D516006DF295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				923DC67A1837D516006DF295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		923DC6971837D516006DF295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		923DC6981837D516006DF295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		923DC69A1837D516006DF295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynxShopList/LynxShopList-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "LynxShopList/LynxShopList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		923DC69B1837D516006DF295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynxShopList/LynxShopList-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				INFOPLIST_FILE = "LynxShopList/LynxShopList-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		923DC69D1837D516006DF295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LynxShopList.app/LynxShopList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynxShopList/LynxShopList-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LynxShopListTests/LynxShopListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		923DC69E1837D516006DF295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LynxShopList.app/LynxShopList";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LynxShopList/LynxShopList-Prefix.pch";
+				INFOPLIST_FILE = "LynxShopListTests/LynxShopListTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		923DC65F1837D516006DF295 /* Build configuration list for PBXProject "LynxShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923DC6971837D516006DF295 /* Debug */,
+				923DC6981837D516006DF295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923DC6991837D516006DF295 /* Build configuration list for PBXNativeTarget "LynxShopList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923DC69A1837D516006DF295 /* Debug */,
+				923DC69B1837D516006DF295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		923DC69C1837D516006DF295 /* Build configuration list for PBXNativeTarget "LynxShopListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				923DC69D1837D516006DF295 /* Debug */,
+				923DC69E1837D516006DF295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 923DC65C1837D516006DF295 /* Project object */;
+}
